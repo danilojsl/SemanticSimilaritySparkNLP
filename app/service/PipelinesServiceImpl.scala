@@ -23,7 +23,7 @@ class PipelinesServiceImpl @Inject()(lifecycle: ApplicationLifecycle) extends Pi
       .config("spark.kryoserializer.buffer.max", "1000m")
       .getOrCreate())
 
-  private val modelsPath = "/home/danilo/IdeaProjects/MySpikes/SparkMLSpykes/models"
+  private val modelsPath = "~/models"
 
   private var cacheEmbeddingsPipelineModel: Option[PipelineModel] = None
   private var cacheEmbeddingsPipeline: Option[PretrainedPipeline] = None

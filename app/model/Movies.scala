@@ -7,7 +7,7 @@ import utils.SparkUtil
 
 object Movies {
 
-  private val datasetPath = "/media/danilo/Data/Danilo/JSL/articles/SparkNLP_Semantic_Similarity/datasets"
+  private val datasetPath = "~/datasets"
 
   def loadMovies(): DataFrame = {
     val moviesDataset = SparkUtil.sparkSession.read
