@@ -1,0 +1,7 @@
+target/
+.bsp/
+.g8/
+.idea/
+.logs/
+
+conf/application.conf
